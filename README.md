@@ -13,12 +13,16 @@ Following features were implemented
 
 ## Google Drive Functionalities:
 
-The Google Drive API allows the application to upload files, download files, delete files, create folder
+The Google Drive API allows the application to upload files, download files, delete files, create folder. Once the user gives authorization to their google drive. The user will be able to 
+
 ![GoogleDrive](https://github.com/shivassg/Storage-as-a-service/blob/master/images/GoogleDrive.png)
 
 ## Dropbox functionalities:
+The Dropbox API allows the application to upload files, download files, delete files, create folder. Once the user gives authorization to their google drive. The user will be able to 
+
 ![DropbBox](https://github.com/shivassg/Storage-as-a-service/blob/master/images/Onebox%20drive.png)
 
 ## Create Folder Functionalities:
 
+The below screenshot is about the create folder functionalities. The user can create the folder using the UI in GoogleDrive and Dropbox
 ![CreateFolder](https://github.com/shivassg/Storage-as-a-service/blob/master/images/CreateFolder.png)
