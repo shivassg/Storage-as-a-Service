@@ -1,0 +1,68 @@
+<html>
+<head>
+<script src="js/dropbox.js">
+</script>
+
+
+<style>
+.dropbox-toolbar{
+	border: 1px solid grey;
+    height: 50px;
+}
+.dropbox-table-wrapper{
+	border: 1px solid grey;
+    height: 300px;
+    margin-top: 1px;
+}
+.dropbox-table{
+	margin:10px;
+}
+.dropbox-btns{
+	margin: 10px;
+}
+</style>
+</head>
+<body>
+<div class="dropbox-toolbar">
+	<div class="dropbox-btns">
+		<button class="btn" id="dropbox-upload-tbr">Upload</button>
+		<button class="btn" id="dropbox-delete">Delete</button>
+		<button class="btn" id="dropbox-createfolder">Create Folder</button>
+		<button class="btn" id="dropbox-navin">-></button>
+	</div>
+</div>
+<div class="dropbox-table-wrapper">
+	<table id="dropbox-table">
+		<thead>
+			<tr>
+			    <th>folder</th>
+				<th>path</th>
+				<th>name</th>
+				<th>download</th>
+			</tr>
+		</thead>
+	</table>
+	
+</div>
+
+<div id="dropboxUploaddialog" style="display: none" align = "center">
+    <form method="post" action="" enctype="multipart/form-data" id="dropboxuploadForm">
+        
+        <div >
+            <input type="file" id="file" name="file" />
+            <input type="submit" class="btn" value="Upload" id="dropbox_upload">
+        </div>
+    </form>
+</div>
+<div id="dropboxnewfldrDlg" style="display: none" align = "center">
+    <form method="post" action="" enctype="multipart/form-data" id="dropboxNewFldrForm">
+        
+        <div >
+            <input type="text" id="dropboxNewFldr" name="dropboxNewFldr" />
+            <input type="submit" class="btn" value="Create" id="dropbox_newfldr">
+        </div>
+    </form>
+</div>
+</body>
+
+</html>

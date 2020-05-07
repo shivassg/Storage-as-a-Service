@@ -1,0 +1,68 @@
+<html>
+<head>
+<script src="js/gdrive.js">
+</script>
+
+
+<style>
+.gdrive-toolbar{
+	border: 1px solid grey;
+    height: 50px;
+}
+.gdrive-table-wrapper{
+	border: 1px solid grey;
+    height: 300px;
+    margin-top: 1px;
+}
+.gdrive-table{
+	margin:10px;
+}
+.gdrive-btns{
+	margin: 10px;
+}
+</style>
+</head>
+<body>
+<div class="gdrive-toolbar">
+	<div class="gdrive-btns">
+		<button class="btn" id="gdrive-upload-tbr">Upload</button>
+		<button class="btn" id="gdrive-delete">Delete</button>
+		<button class="btn" id="gdrive-createfolder">Create Folder</button>
+		<button class="btn" id="gdrive-navin">-></button>
+	</div>
+</div>
+<div class="gdrive-table-wrapper">
+	<table id="gdrive-table">
+		<thead>
+			<tr>
+			    <th>folder</th>
+				<th>id</th>
+				<th>name</th>
+				<th>download</th>
+			</tr>
+		</thead>
+	</table>
+	
+</div>
+
+<div id="gDriveUploaddialog" style="display: none" align = "center">
+    <form method="post" action="" enctype="multipart/form-data" id="gDriveuploadForm">
+        
+        <div >
+            <input type="file" id="file" name="file" />
+            <input type="submit" class="btn" value="Upload" id="gdrive_upload">
+        </div>
+    </form>
+</div>
+<div id="gDrivenewfldrDlg" style="display: none" align = "center">
+    <form method="post" action="" enctype="multipart/form-data" id="gDriveNewFldrForm">
+        
+        <div >
+            <input type="text" id="gDriveNewFldr" name="gDriveNewFldr" />
+            <input type="submit" class="btn" value="Create" id="gdrive_newfldr">
+        </div>
+    </form>
+</div>
+</body>
+
+</html>
