@@ -7,4 +7,4 @@ Following features were implemented
 1. A single web interface to manage Google Drive, Dropbox
 2. Upload, Download and Search files from a single place
 
-![Login Window] (https://github.com/shivassg/Storage-as-a-service/blob/master/images/Login%20Page.png)
+![Login Window](https://github.com/shivassg/Storage-as-a-service/blob/master/images/Login%20Page.png)
