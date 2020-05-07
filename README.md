@@ -8,3 +8,8 @@ Following features were implemented
 2. Upload, Download and Search files from a single place
 
 ![Login Window](https://github.com/shivassg/Storage-as-a-service/blob/master/images/Login%20Page.png)
+
+Google Drive Functionalities:
+
+The Google Drive API allows the application to upload files, download files, delete files, create folder
+![GoogleDrive](https://github.com/shivassg/Storage-as-a-service/blob/master/images/GoogleDrive.png)
