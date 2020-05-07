@@ -9,7 +9,14 @@ Following features were implemented
 
 ![Login Window](https://github.com/shivassg/Storage-as-a-service/blob/master/images/Login%20Page.png)
 
-Google Drive Functionalities:
+## Google Drive Functionalities:
 
 The Google Drive API allows the application to upload files, download files, delete files, create folder
 ![GoogleDrive](https://github.com/shivassg/Storage-as-a-service/blob/master/images/GoogleDrive.png)
+
+## Dropbox functionalities:
+![DropbBox](https://github.com/shivassg/Storage-as-a-service/blob/master/images/Onebox%20drive.png)
+
+## Create Folder Functionalities:
+
+![CreateFolder](https://github.com/shivassg/Storage-as-a-service/blob/master/images/CreateFolder.png)
